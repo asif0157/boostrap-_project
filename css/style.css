@@ -1,0 +1,65 @@
+
+/* top nav css  */
+.topnav{
+    
+    background-color: #62E3E3;
+    padding: 3px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.topnav .time , .contact{
+    color: #384349!important;
+}
+
+
+/* header  */
+.main_nav li{
+    padding: 20px 0 !important;
+}
+.main_nav li a{
+     text-transform: capitalize !important;
+     font-size: 25px;
+     font-family: Zen Dots sans-serif ;
+}
+.main_nav li a:hover{
+    text-decoration: underline;
+    color: #62E3E3;
+    background-color: rgb(43, 41, 41);
+    border-radius: 8px;
+}
+/* Banner  */
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.banner .banner_container{
+    padding-top: 29%;
+}
+.banner .banner_container h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #212529;
+    margin-left: 40px;
+}
+.banner .banner_container p {
+    font-size: 30px;
+    font-weight: 1300;
+    color: #212529;
+}
+.banner .banner_container a{
+    background-color: #212529;
+    padding: 13px 9px;
+    border-radius: 8px;
+    color: #62E3E3;
+    text-decoration: none;
+    margin-left: 130px;
+}
+.banner .banner_container a:hover{
+    background-color:#62E3E3;
+    border-radius: 20px 0 20px 0;
+    color: #212529;
+    font-weight: 700;
+    border:2px solid #212529 ;
+}
